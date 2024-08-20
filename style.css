@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Matemasie&family=New+Amsterdam&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-image: url(/img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #cccccc;
+    width: 600px;
+}
+
+button{
+    background-color: burlywood;
+    border: none;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: rgb(156, 130, 97);
+}
+
+p{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: darkgreen;
+}
